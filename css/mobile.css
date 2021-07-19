@@ -1,0 +1,10 @@
+#navbar li a{
+    text-decoration: none;
+    color: rgb(241, 241, 10) ;
+    padding:0.5rem 0.75rem ;
+    border-radius: 5px;
+    }
+    
+    body{
+        display: none;
+    }

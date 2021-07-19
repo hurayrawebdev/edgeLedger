@@ -1,0 +1,225 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0.75rem 0;
+}
+.text-primary{
+    color: rgb(52, 153, 52);
+}
+#navbar{
+     background-color: rgb(49, 47, 47);
+     color: ivory ;
+     position: sticky;
+     display: flex;
+     justify-content: space-between;
+     
+}
+#navbar .logo{
+    padding: 20px;
+}
+#navbar .logo .lgt{
+    padding: 20px;
+    
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+#navbar li {
+list-style: none;
+padding: 1rem;
+}
+#navbar li a{
+text-decoration: none;
+color: ivory ;
+padding:0.5rem 0.75rem ;
+border-radius: 5px;
+}
+#navbar li a:hover{
+    background-color:rgb(52, 153, 52); ;
+}
+/* showcase */
+#showcase{
+    height: 100vh;
+color: ivory;
+    background: grey url(../image_resources/showcase.jpg) center center/cover;
+}
+ .showcase-contant{
+    
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    position: absolute;
+    top: 68px;
+    right:0px;
+    left: 0px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+
+    
+}
+#showcase a{
+
+    background-color:rgb(52, 153, 52); ;
+    text-decoration: none;
+color: ivory ;
+padding:0.5rem 0.75rem ;
+border-radius: 7px;
+}
+#showcase a:hover{
+
+    background-color:rgb(62, 129, 62); }
+    /* section what we do */
+    #what h1{
+        text-align: center;
+        font-size: 35px;
+        padding: 10px;
+    }
+    #what{
+        background-color: rgb(219, 216, 216);
+      margin: auto;
+      padding-top: 2rem;  
+    }
+    #items{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        margin: auto;
+        flex-wrap: wrap;
+        height: 200px;
+        
+       
+
+    }
+    #items .item {
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+        width: 33%;
+
+    }
+    #items .item i{
+        background-color:rgb(52, 153, 52);
+        padding: 10px;
+        border-radius: 100%;
+    }
+               /* who */
+     #who{
+                  display: flex;
+                  width:100%;
+                  
+              }
+    #who div { 
+         
+         flex: 1;
+     } 
+     #who li{
+         list-style: none;
+         line-height: 50px;
+         border-bottom: 0.1px dotted grey;
+     }
+     #who .who-img{
+         background: url(../image_resources/people.jpg) no-repeat center center/cover;
+     }
+     #who .content{
+         background-color: rgb(66, 63, 63);
+         color: rgb(251, 255, 251);
+         padding: 20px;
+     }
+     /* client */
+     #client{
+        background-color: rgb(219, 216, 216);
+        width: 100%;
+        display: block;
+        margin: auto;
+         
+     }
+     .itams{
+            display: flex;
+            justify-content: space-evenly;
+     }
+     .itam img{
+        width: 60%;
+        margin: auto;
+        
+ }
+ /* contact */
+ #contact{
+     display: block;
+
+ }
+ #contact .form{
+     background-color:rgb(45, 168, 45);
+     color: honeydew;
+     flex-direction: column;
+ }
+ #contact .map,#contact .form, #contact{
+     display: flex;
+     flex: 1;
+ }
+ #contact .map,#contact .form{
+
+    padding: 10px;
+ }
+ #contact .form-group{
+     margin: 0.75rem;
+ }
+ .form label{
+     display: block;
+     margin: 5px ;
+ }
+ #contact input{
+     width: 100%;
+     padding: 0.5rem;
+     border-radius: 10px;
+     border: none;
+ }
+ #contact input:focus{
+      outline: none;
+ }
+ #contact .submit{
+      background-color: rgb(80, 75, 75);
+      border-radius: 10px;
+      color: ivory;
+      border: none;
+    }
+    #contact .submit:hover{
+        background-color: rgb(43, 43, 43);}
+    #contact h1{
+        text-align: start;
+    }
+    #contact p{
+        margin: 0 20px;
+    }
+    #main-footer{
+        display: block;
+    }
+    #main-footer .container{
+        
+    }
+    .break {
+        flex-basis: 100%;
+        height: 0;
+      }
